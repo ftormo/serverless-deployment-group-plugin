@@ -1,0 +1,15 @@
+{
+  "name": "serverless-group-deployment-plugin",
+  "description": "Serverless plugin for deploy functions filtering by group.",
+  "version": "1.0.0",
+  "main": "indnex.js",
+  "author": "f.tormo+dev@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ftormo/serverless-deployment-group-plugin.git"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2"
+  },
+  "devDependencies": {}
+}
