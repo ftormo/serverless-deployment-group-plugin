@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "f.tormo+dev@gmail.com",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ftormo/serverless-deployment-group-plugin.git"

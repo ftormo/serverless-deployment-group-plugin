@@ -46,3 +46,6 @@ function3:
 * Run deploy command `sls deploy --deployment-group group_A`.
 
 * Functions will be deployed based on your selection group. In this example: *function1* and *function2*.
+
+## License
+  [MIT](LICENSE)
