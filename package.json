@@ -1,8 +1,8 @@
 {
-  "name": "serverless-group-deployment-plugin",
+  "name": "serverless-deployment-group-plugin",
   "description": "Serverless plugin for deploy functions filtering by group.",
   "version": "1.0.0",
-  "main": "indnex.js",
+  "main": "index.js",
   "author": "f.tormo+dev@gmail.com",
   "repository": {
     "type": "git",
