@@ -12,5 +12,10 @@
   "dependencies": {
     "bluebird": "^3.7.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "keywords": [
+    "serverless",
+    "serverless-plugin",
+    "plugin"
+  ]
 }
