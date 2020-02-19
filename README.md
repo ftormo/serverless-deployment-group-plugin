@@ -2,8 +2,8 @@ Serverless Deployment Group
 ==================================
 [![NPM version][npm-image]][npm-url]
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![codecov](https://codecov.io/gh/ftormo/serverless-deployment-group-plugin/branch/{{branch}}/graph/badge.svg)](https://codecov.io/gh/ftormo/serverless-deployment-group-plugin)
-![Node.js CI](https://github.com/ftormo/test-coveralls/workflows/Node.js%20CI/badge.svg?branch=master)
+[![codecov](https://codecov.io/gh/ftormo/serverless-deployment-group-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/ftormo/serverless-deployment-group-plugin)
+![Node.js CI](https://github.com/ftormo/serverless-deployment-group-plugin/workflows/Node.js%20CI/badge.svg?branch=master)
 
 > Serverless Deployment Group is a plugin that allows to select which functions are to be deployed based on an aggrupation variable.
 
