@@ -21,5 +21,8 @@
   ],
   "script": {
     "test": "mocha test/*test.js"
+  },
+  "engines": {
+    "node": ">=8.0.0"
   }
 }
