@@ -43,7 +43,7 @@ plugins:
 
 ## Usage
 
-* Add an aggrupation name (`deployment-group`) for one or more function:
+* Add an aggrupation name (`deployment-group`) for one or more functions:
 ```yaml
 ...
 
