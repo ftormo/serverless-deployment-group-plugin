@@ -20,7 +20,8 @@
     "plugin"
   ],
   "script": {
-    "test": "mocha test/*test.js"
+    "test": "mocha test/*test.js",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "engines": {
     "node": ">=8.0.0"
