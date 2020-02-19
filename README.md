@@ -8,6 +8,12 @@ Serverless Deployment Group
 
 > Serverless Deployment Group is a plugin that allows to select which functions are to be deployed based on an aggrupation variable.
 
+## Documentation
+* [Setup](#setup)
+* [Requirements](#requirements)
+* [Usage](#usage)
+* [License](#license)
+
 ## Setup
 
 First, you have to set `serverless-deployment-group-plugin` plugin by running:
@@ -25,26 +31,37 @@ plugins:
 ...
 ```
 
+## Requirements
+* Package versions:
+  * node: >= 8.0.0
+  * npm: >= 1.64.0
+  * serverless: >= 1.34
+
+* Warnings:
+  * If `deployment-group` option is present in *deploy* command, this plugin removes those *functions* in node *functions* (in *serverless.yml*) which don't match with selected groups.
+
+
 ## Usage
 
 * Add an aggrupation name (`deployment-group`) for one or more function:
 ```yaml
 ...
 
-function1:
-    deployment-group: group_A
-    handler: index.handler
-    name: function1
+functions:
+  function1:
+      deployment-group: group_A
+      handler: index.handler
+      name: function1
 
-function2:
-    deployment-group: group_A
-    handler: index.handler
-    name: function1
+  function2:
+      deployment-group: group_A
+      handler: index.handler
+      name: function1
 
-function3:
-    deployment-group: group_B
-    handler: index.handler
-    name: function1
+  function3:
+      deployment-group: group_B
+      handler: index.handler
+      name: function1
 
 ...
 ```
