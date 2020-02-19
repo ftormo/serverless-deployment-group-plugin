@@ -3,7 +3,7 @@ Serverless Deployment Group
 [![NPM version](https://badge.fury.io/js/serverless.svg)](https://npmjs.org/package/serverless-deployment-group-plugin)
 [![node](https://img.shields.io/node/v/serverless-deployment-group-plugin.svg)](https://github.com/ftormo/serverless-deployment-group-plugin)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Coverage Status](https://coveralls.io/repos/github/ftormo/serverless-deployment-group-plugin/badge.svg?branch=master)](https://coveralls.io/github/ftormo/serverless-deployment-group-plugin?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/ftormo/serverless-deployment-group-plugin/badge.svg)](https://coveralls.io/github/ftormo/serverless-deployment-group-plugin)
 ![Node.js CI](https://github.com/ftormo/serverless-deployment-group-plugin/workflows/Node.js%20CI/badge.svg?branch=master)
 
 > Serverless Deployment Group is a plugin that allows to select which functions are to be deployed based on an aggrupation variable.
