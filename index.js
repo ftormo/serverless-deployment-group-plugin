@@ -1,6 +1,5 @@
 'use strict'
 
-const BbPromise = require('bluebird')
 const GROUP_FIELD = 'deployment-group'
 
 class DeploymentGroup {
@@ -11,15 +10,15 @@ class DeploymentGroup {
     this.commands = {}
     this.hooks = {
       // Initializes plugin.
-      'before:package:initialize': () => BbPromise.bind(this)
-        .then(() => this.setFunctionsToDeploy())
+      'before:package:initialize': () => this.setFunctionsToDeploy.bind(this)
     }
   }
 
   setFunctionsToDeploy () {
     if (this.options[GROUP_FIELD]) {
+      const groups = this.options[GROUP_FIELD].split(',')
       Object.keys(this.sls.service.functions).forEach(alias => {
-        if (this.sls.service.functions[alias][GROUP_FIELD] !== this.options[GROUP_FIELD]) {
+        if (groups.indexOf(this.sls.service.functions[alias][GROUP_FIELD]) === -1) {
           delete this.sls.service.functions[alias]
         }
       })
