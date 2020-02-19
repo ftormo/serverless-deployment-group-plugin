@@ -1,7 +1,7 @@
 {
   "name": "serverless-deployment-group-plugin",
   "description": "Serverless plugin for deploy functions filtering by group.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "author": "f.tormo+dev@gmail.com",
   "license": "MIT",
